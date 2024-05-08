@@ -1,0 +1,86 @@
+body{
+    background-color:cornsilk;
+}
+
+#title{
+    text-align: center;
+    font-size: 56px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dashboard-image > img{
+    max-width:98%;
+    height:auto;
+}
+
+#dashboard-text > *{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#Links > a {
+    font-size: 28px;
+    width: 25%;
+    text-align: center;
+    margin: 10px 0; 
+}
+
+.Writeup-subsection h3{
+    text-align: center;
+    font-size:32px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.inner-content{
+    display: flex;
+    width: 100%;
+}
+
+.inner-content img{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+    max-height: 100%; 
+    box-sizing: border-box;
+}
+
+.inner-content p {
+    padding: 0 20px;
+    width:50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content p a {
+    margin: 0 auto;
+}
+
+.Writeup-subsection:nth-child(odd) .inner-content p {
+    order: 2;
+}
+
+.Writeup-subsection:nth-child(odd) .inner-content img {
+    order: 1;
+}
+
+#about-data{
+    width:100%;
+}
