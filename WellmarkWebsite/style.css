@@ -10,8 +10,11 @@ body{
 }
 
 #dashboard-image > img{
-    max-width:98%;
+    max-width:96%;
     height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #dashboard-text > *{
@@ -20,6 +23,11 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+#Writeup{
+    max-width: 96%;
+    margin: 0 2%;
 }
 
 #Links {
@@ -61,7 +69,6 @@ body{
 }
 
 .inner-content p {
-    padding: 0 20px;
     width:50%;
     box-sizing: border-box;
     display: flex;
